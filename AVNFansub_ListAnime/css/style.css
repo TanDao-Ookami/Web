@@ -1,0 +1,838 @@
+/*body**********************************************************/
+body {
+	font-family: Time New Romans;
+	font-size: 20px;
+	width: 100%;
+	margin: 0px auto;
+	background-image: url("../images/background2.png");
+	background-size: 100%;
+}
+/*menu_top**********************************************************/
+#menu_top {
+	background-color: #363636;
+	height: 66px;
+
+}
+#logo {
+	position:fixed;
+	background:blue;
+}
+/*banner**********************************************************/
+#banner {
+	background-image: url("../images/banner-2.png");
+	height: 445px;
+	width: 1170px;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+/*main**********************************************************/
+
+#main {
+	background-color: white;
+	width: 1170px;
+	height: 3450px;
+	margin: 0px auto;
+	border-radius: 10px;
+}
+
+#main h2 {
+	margin: 20px;
+	padding: 5px 0px 0px 0px;
+}
+/*main_search**********************************************************/
+
+#main #search {
+	background-color: #fafafa;
+	width: 1130px;
+	height: 300px;
+	margin: 0px auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #eeeeee;
+}
+
+#main #search #alphabet {
+	width: 1100px;
+	height: 30px;
+	margin: 20px auto;
+}
+
+#main #search #keyword {
+	width: 1130px;
+	height: 100px;
+	float: left;
+	border-style: solid;
+}
+
+
+#main #search #alphabet ul {
+	text-align: center;
+	margin: 0px 0px 0px -50px;
+}
+
+#main #search #alphabet ul li {
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	line-height: 30px;
+	padding: 0px 10px 0px 7px;
+	color: #18adff;
+
+}
+
+#main #search #alphabet ul li a {
+	text-decoration: none;
+	color: #18adff;
+}
+
+#main #search #alphabet ul li a:hover {
+	color: white;
+	background-color: green;
+	text-decoration: none;
+}
+
+
+#main #search #option {
+	float: left;
+	width: 1130px;
+	height: 120px;
+}
+
+#main #search #option #chuyenmucphim{
+	width: 150px;
+	height: 30px;
+	border-color: #cccccc;
+	padding: 5px;
+}
+
+#main #search #option #thephim{
+	width: 150px;
+	height: 30px;
+	border-color: #cccccc;
+	padding: 5px;
+}
+
+#main #search #option #namphathanh{
+	width: 150px;
+	height: 30px;
+	border-color: #cccccc;
+	padding: 5px;
+}
+
+#main #search #option #theloai{
+	width: 150px;
+	height: 30px;
+	border-color: #cccccc;
+	padding: 5px;
+}
+
+#main #search #option #trangthai{
+	width: 150px;
+	height: 30px;
+	border-color: #cccccc;
+	padding: 5px;
+}
+
+#main #search #option #sapxep{
+	width: 150px;
+	height: 30px;
+	border-color: #cccccc;
+	padding: 5px;
+}
+
+#main #search #option ul {
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px;
+}
+#main #search #option ul li {
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+/*main_anime**********************************************************/
+
+#main #anime {
+	width: 1130px;
+	height: 2500px;
+	margin: 20px auto;
+	border-width: 1px;
+	border-color: black;
+}
+/*film1**********************************************************/
+#main #anime #film1{
+	width: 1130px;
+	height: 290px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #eeeeee;
+}
+
+#main #anime #film1 #img{
+	width: 400px;
+	height: 280px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fafafa;
+	border-color: #eeeeee;
+	float: left;
+}
+#main #anime #film1 #img #img1{
+	border-radius: 10px;
+	margin: 5px auto; 
+	width: 191px;
+	height: 270px;
+	background-image: url("../images/img1.jpg");
+}
+
+#main #anime #film1 #content1{
+	margin: -20px auto;
+	width: 720px;
+	height: 280px;
+	float: right;
+}
+
+#main #anime #film1 #content1 h2 a{
+	text-decoration: none;
+	color: gray;
+}
+
+#main #anime #film1 #content1 #button{
+	width: 80px;
+	height: 35px;
+	background-color: #5bc0de;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	margin: 20px;
+	border-color: #46b8da;
+}
+
+#main #anime #film1 #content1 #button0{
+	width: 120px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+/*film2**********************************************************/
+#main #anime #film2{
+	width: 1130px;
+	height: 290px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #eeeeee;
+	margin: 10px auto;
+}
+
+#main #anime #film2 #img{
+	width: 400px;
+	height: 280px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fafafa;
+	border-color: #eeeeee;
+	float: left;
+}
+#main #anime #film2 #img #img2{
+	border-radius: 10px;
+	margin: 5px auto; 
+	width: 191px;
+	height: 270px;
+	background-image: url("../images/img2.jpg");
+}
+
+#main #anime #film2 #content2{
+	margin: -20px auto;
+	width: 720px;
+	height: 280px;
+	float: right;
+}
+
+#main #anime #film2 #content2 h2 a{
+	text-decoration: none;
+	color: gray;
+}
+
+#main #anime #film2 #content2 #button{
+	width: 90px;
+	height: 35px;
+	background-color: #5bc0de;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	margin: 20px;
+	border-color: #46b8da;
+}
+
+#main #anime #film2 #content2 #button0{
+	width: 120px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+/*film3**********************************************************/
+#main #anime #film3{
+	width: 1130px;
+	height: 290px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #eeeeee;
+	margin: 10px auto;
+}
+
+#main #anime #film3 #img{
+	width: 400px;
+	height: 280px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fafafa;
+	border-color: #eeeeee;
+	float: left;
+}
+#main #anime #film3 #img #img3{
+	border-radius: 10px;
+	margin: 5px auto; 
+	width: 191px;
+	height: 270px;
+	background-image: url("../images/img3.jpg");
+}
+
+#main #anime #film3 #content3{
+	margin: -20px auto;
+	width: 720px;
+	height: 280px;
+	float: right;
+}
+
+#main #anime #film3 #content3 h2 a{
+	text-decoration: none;
+	color: gray;
+}
+
+#main #anime #film3 #content3 #button{
+	width: 80px;
+	height: 35px;
+	background-color: #5bc0de;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	margin: 20px;
+	border-color: #46b8da;
+}
+
+#main #anime #film3 #content3 #button0{
+	width: 120px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+/*film4**********************************************************/
+#main #anime #film4{
+	width: 1130px;
+	height: 290px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #eeeeee;
+	margin: 10px auto;
+}
+
+#main #anime #film4 #img{
+	width: 400px;
+	height: 280px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fafafa;
+	border-color: #eeeeee;
+	float: left;
+}
+#main #anime #film4 #img #img4{
+	border-radius: 10px;
+	margin: 5px auto; 
+	width: 191px;
+	height: 270px;
+	background-image: url("../images/img4.jpg");
+}
+
+#main #anime #film4 #content4{
+	margin: -20px auto;
+	width: 720px;
+	height: 280px;
+	float: right;
+}
+
+#main #anime #film4 #content4 h2 a{
+	text-decoration: none;
+	color: gray;
+}
+
+#main #anime #film4 #content4 #button{
+	width: 80px;
+	height: 35px;
+	background-color: #5bc0de;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	margin: 20px;
+	border-color: #46b8da;
+}
+
+#main #anime #film4 #content4 #button0{
+	width: 120px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+/*film5**********************************************************/
+#main #anime #film5{
+	width: 1130px;
+	height: 290px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #eeeeee;
+	margin: 10px auto;
+}
+
+#main #anime #film5 #img{
+	width: 400px;
+	height: 280px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fafafa;
+	border-color: #eeeeee;
+	float: left;
+}
+#main #anime #film5 #img #img5{
+	border-radius: 10px;
+	margin: 5px auto; 
+	width: 191px;
+	height: 270px;
+	background-image: url("../images/img5.jpg");
+}
+
+#main #anime #film5 #content5{
+	margin: -20px auto;
+	width: 720px;
+	height: 280px;
+	float: right;
+}
+
+#main #anime #film5 #content5 h2 a{
+	text-decoration: none;
+	color: gray;
+}
+
+#main #anime #film5 #content5 #button{
+	width: 80px;
+	height: 35px;
+	background-color: #5bc0de;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	margin: 20px;
+	border-color: #46b8da;
+}
+
+#main #anime #film5 #content5 #button0{
+	width: 120px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+/*film6**********************************************************/
+#main #anime #film6{
+	width: 1130px;
+	height: 290px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #eeeeee;
+	margin: 10px auto;
+}
+
+#main #anime #film6 #img{
+	width: 400px;
+	height: 280px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fafafa;
+	border-color: #eeeeee;
+	float: left;
+}
+#main #anime #film6 #img #img6{
+	border-radius: 10px;
+	margin: 5px auto; 
+	width: 191px;
+	height: 270px;
+	background-image: url("../images/img6.jpg");
+}
+
+#main #anime #film6 #content6{
+	margin: -20px auto;
+	width: 720px;
+	height: 280px;
+	float: right;
+}
+
+#main #anime #film6 #content6 h2 a{
+	text-decoration: none;
+	color: gray;
+}
+
+#main #anime #film6 #content6 #button{
+	width: 80px;
+	height: 35px;
+	background-color: #5bc0de;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	margin: 20px;
+	border-color: #46b8da;
+}
+
+#main #anime #film6 #content6 #button0{
+	width: 120px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+/*film7**********************************************************/
+#main #anime #film7{
+	width: 1130px;
+	height: 290px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #eeeeee;
+	margin: 10px auto;
+}
+
+#main #anime #film7 #img{
+	width: 400px;
+	height: 280px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fafafa;
+	border-color: #eeeeee;
+	float: left;
+}
+#main #anime #film7 #img #img7{
+	border-radius: 10px;
+	margin: 5px auto; 
+	width: 191px;
+	height: 270px;
+	background-image: url("../images/img7.jpg");
+}
+
+#main #anime #film7 #content7{
+	margin: -20px auto;
+	width: 720px;
+	height: 280px;
+	float: right;
+}
+
+#main #anime #film7 #content7 h2 a{
+	text-decoration: none;
+	color: gray;
+}
+
+#main #anime #film7 #content7 #button{
+	width: 80px;
+	height: 35px;
+	background-color: #5bc0de;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	margin: 20px;
+	border-color: #46b8da;
+}
+
+#main #anime #film7 #content7 #button0{
+	width: 120px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+/*film8**********************************************************/
+#main #anime #film8{
+	width: 1130px;
+	height: 290px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #eeeeee;
+	margin: 10px auto;
+}
+
+#main #anime #film8 #img{
+	width: 400px;
+	height: 280px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fafafa;
+	border-color: #eeeeee;
+	float: left;
+}
+#main #anime #film8 #img #img8{
+	border-radius: 10px;
+	margin: 5px auto; 
+	width: 191px;
+	height: 270px;
+	background-image: url("../images/img8.jpg");
+}
+
+#main #anime #film8 #content8{
+	margin: -20px auto;
+	width: 720px;
+	height: 280px;
+	float: right;
+}
+
+#main #anime #film8 #content8 h2 a{
+	text-decoration: none;
+	color: gray;
+}
+
+#main #anime #film8 #content8 #button{
+	width: 80px;
+	height: 35px;
+	background-color: #5bc0de;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	margin: 20px;
+	border-color: #46b8da;
+}
+
+#main #anime #film8 #content8 #button0{
+	width: 120px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+/*film9**********************************************************/
+#main #anime #film9{
+	width: 1130px;
+	height: 290px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #eeeeee;
+	margin: 10px auto;
+}
+
+#main #anime #film9 #img{
+	width: 400px;
+	height: 280px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fafafa;
+	border-color: #eeeeee;
+	float: left;
+}
+#main #anime #film9 #img #img9{
+	border-radius: 10px;
+	margin: 5px auto; 
+	width: 191px;
+	height: 270px;
+	background-image: url("../images/img9.jpeg");
+}
+
+#main #anime #film9 #content9{
+	margin: -20px auto;
+	width: 720px;
+	height: 280px;
+	float: right;
+}
+
+#main #anime #film9 #content9 h2 a{
+	text-decoration: none;
+	color: gray;
+}
+
+#main #anime #film9 #content9 #button{
+	width: 80px;
+	height: 35px;
+	background-color: #5bc0de;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	margin: 20px;
+	border-color: #46b8da;
+}
+
+#main #anime #film9 #content9 #button0{
+	width: 120px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+/*film10*********************************************************/
+#main #anime #film10{
+	width: 1130px;
+	height: 290px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #eeeeee;
+	margin: 10px auto;
+}
+
+#main #anime #film10 #img{
+	width: 400px;
+	height: 280px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fafafa;
+	border-color: #eeeeee;
+	float: left;
+}
+#main #anime #film10 #img #img10{
+	border-radius: 10px;
+	margin: 5px auto; 
+	width: 191px;
+	height: 270px;
+	background-image: url("../images/img10.jpeg");
+}
+
+#main #anime #film10 #content10{
+	margin: -20px auto;
+	width: 720px;
+	height: 280px;
+	float: right;
+}
+
+#main #anime #film10 #content10 h2 a{
+	text-decoration: none;
+	color: gray;
+}
+
+#main #anime #film10 #content10 #button{
+	width: 80px;
+	height: 35px;
+	background-color: #5bc0de;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	margin: 20px;
+	border-color: #46b8da;
+}
+
+#main #anime #film10 #content10 #button0{
+	width: 120px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+
+#main #anime #buttonload {
+	width: 1130px;
+	height: 30px;
+	margin: 20px auto;
+	color: white;
+	background-color: red;
+	opacity: 70%;
+	border-radius: 5px;
+}
+
+#footer {
+	width: 1170px;
+	text-align: center;
+	height: 60px;
+	color: #FFF;
+	clear: left;
+
+	margin: 0px auto;
+	line-height: 60px;
+}
+
+#menu_top ul {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+
+}
+#menu_top ul li {
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	margin: 0px -250px 0px 250px;
+
+}
+
+#menu_top ul li a {
+	text-decoration: none;
+	color: white;
+	line-height: 66px;
+	padding: 0px 10px 0px 10px;
+	font-size: 13px;
+}
+
+#menu_top ul li a.active {
+	background: none;
+	color: red;
+}
+
+h1 {
+	font-size: 23px;
+	color: maroon;
+	margin: 10px;
+}
+h2 {
+	font-weight: bold;
+	font-size: 18px;
+	border-style: solid;
+	border-color: black;
+	border-width: 0px 0px 1px 0px;
+	color: maroon;
+}
+
+
+i {
+	font-size: 13px;
+	margin: 0px 10px 0px 0px;
+
+}
+i a{
+	text-decoration: none;
+	color: red;
+}
+p {
+	font-size: 16px;
+	margin: 20px;
+}
+
+#menu_top ul li a:hover {
+	color: red;
+}
+
+
+
+

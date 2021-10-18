@@ -1,0 +1,143 @@
+/*body**********************************************************/
+body {
+	font-family: Time New Romans;
+	font-size: 20px;
+	width: 100%;
+	margin: 0px auto;
+	background-image: url("../images/background2.png");
+	background-size: 100%;
+}
+/*menu_top**********************************************************/
+#menu_top {
+	background-color: #363636;
+	height: 66px;
+
+}
+#logo {
+	position:fixed;
+	background:blue;
+}
+/*banner**********************************************************/
+#banner {
+	background-image: url("../images/banner-2.png");
+	height: 445px;
+	width: 1170px;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+
+#HuongDan1 {
+	background: white;
+	width: 1170px;
+	height: 950px;
+	margin: 20px auto;
+	border-radius: 10px;
+
+}
+
+#HuongDan1 h2{
+	color: maroon;
+	margin: 20px 20px 20px 20px;
+}
+
+#HuongDan1 #imghd{
+	background-size: 100%;
+	width: 1000px;
+	height: 360px;
+	border-radius: 10px;
+	background-image: url("../images/imghd.jpg");
+	background-position: center;
+
+}
+
+#HuongDan1 #contenthd {
+	width: 1165px;
+}
+
+#HuongDan1 #contenthd ol li{
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 0px 20px 0px 0px;
+}
+
+#HuongDan1 #contenthd ol li p{
+	font-size: 18px;
+
+}
+
+#HuongDan1 #contenthd ol li ul li {
+	font-size: 18px;
+}
+
+#HuongDan1 #contenthd ol li ul li a {
+	text-decoration: none;
+	color: red;
+}
+
+#footer {
+	width: 1170px;
+	text-align: center;
+	height: 60px;
+	color: #FFF;
+	clear: left;
+	margin: 0px auto;
+	line-height: 60px;
+}
+
+#menu_top ul {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+
+}
+#menu_top ul li {
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	margin: 0px -250px 0px 250px;
+
+}
+
+#menu_top ul li a {
+	text-decoration: none;
+	color: white;
+	line-height: 66px;
+	padding: 0px 10px 0px 10px;
+	font-size: 13px;
+}
+
+#menu_top ul li a.active {
+	background: none;
+	color: red;
+}
+
+h1 {
+	font-size: 30px;
+	color: maroon;
+	margin: 20px;
+}
+h2 {
+	font-size: 30px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	padding: 5px;
+}
+
+
+i {
+	font-size: 13px;
+	margin: 0px 10px 0px 0px;
+
+}
+i a{
+	text-decoration: none;
+	color: red;
+}
+p {
+	font-size: 16px;
+}
+
+#menu_top ul li a:hover {
+	color: red;
+}
+

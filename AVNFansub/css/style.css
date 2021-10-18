@@ -1,0 +1,618 @@
+/*body**********************************************************/
+body {
+	font-family: Time New Romans;
+	font-size: 20px;
+	width: 100%;
+	margin: 0px auto;
+	background-image: url("../images/background2.png");
+	background-size: 100%;
+}
+/*menu_top**********************************************************/
+#menu_top {
+	background-color: #363636;
+	height: 66px;
+
+}
+#logo {
+	position:fixed;
+	background:blue;
+}
+/*banner**********************************************************/
+#banner {
+	background-image: url("../images/banner.png");
+	height: 533px;
+	width: 1170px;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+
+#main {
+	width: 1170px;
+	height: 1270px;
+	margin: 0px auto;
+}
+
+/*main_Thongbao**********************************************************/
+
+#main #Thôngbáo {
+	width: 800px;
+	background: white;
+	height: 245px;
+	float: left;
+	border-radius: 10px;
+}
+/*main_FB**********************************************************/
+#main #AVNFansubonFB {
+	background-size: 300px;
+	width: 353px;
+	height: 145px;
+	background: white;
+	margin: 0px 0px 0px 17px;
+	border-radius: 10px;
+	float: left;
+}
+#main #AVNFansubonFB h1{
+	font-size: 20px;
+	color: maroon;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	margin: 20px;
+}
+#main #AVNFansubonFB #facebook {
+	background-image: url("../images/anhface1.jpg");
+	background-position: center;
+	background-size: 100%;
+	width: 313px;
+	height: 60px;	
+	margin: 20px auto;
+}
+#main #AVNFansubonFB #facebook #AvatarFB {
+	background-image: url("../images/avatarface.jpg");
+	background-position: center;
+	background-size: 100%;
+	width: 50px;
+	height: 50px;
+	margin: 5px 10px 10px 5px;
+	float: left;
+}
+
+#main #AVNFansubonFB #facebook #Name {
+	font-size: 20px;
+}
+#main #AVNFansubonFB #facebook #Name a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin: 20px 0px 0px 0px;
+	float: left;
+	font-weight: bold;
+}
+/*main_DanhSachPhim****************************************************/
+#main #ListFilm {
+	width: 353px;
+	height: 145px;
+	background: white;
+	margin: 20px 0px 0px 17px;
+	float: left;
+	border-radius: 10px;
+}
+
+#main #ListFilm h1{
+	font-size: 20px;
+	color: maroon;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	margin: 20px;
+}
+
+#main #ListFilm #Completed {
+	background-color: black;
+	width: 313px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 20px 0px 5px 20px;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+#main #ListFilm #Completed a{
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+	font-weight: bold;
+}
+
+#main #ListFilm #Ongoing {
+	background-color: black;
+	width: 313px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 0px auto;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+#main #ListFilm #Ongoing a{
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+	font-weight: bold;
+}
+/*main_New**********************************************************/
+#main #Mớipháthành {
+	width: 800px;
+	background: white;
+	height: 1000px;
+	float: left;
+	border-radius: 10px;
+	margin: -40px 0px 0px 0px;
+}
+
+#main #Mớipháthành #search {
+	width: 760px;
+	height: 40px;
+	margin: 0px 0px 0px 20px;
+	border-radius: 5px;
+}
+#main #Mớipháthành ul {
+	
+}
+
+#main #Mớipháthành ul li {
+	list-style: none;
+}
+/*main_New_film1**********************************************************/
+
+#main #Mớipháthành ul li #film1 {
+	border-style: solid;
+	margin: 10px 10px 10px -20px;
+	width: 755px;
+	height: 190px;
+	border-width: 0px 0px 1px 0px;
+	border-color: gray;
+
+}
+
+#main #Mớipháthành ul li #film1 #imgfilm1 {
+	background-image: url("../images/film1.jpg");
+	background-size: 100%;
+	height: 180px;
+	width: 250px;
+	margin: 0px 0px 0px 0px;
+	border-radius: 10px;
+	float: left;
+}
+
+#main #Mớipháthành ul li #film1 #contentfilm1 {
+	height: 150px;
+	width: 480px;
+	margin: 0px 0px 0px 270px;
+}
+#main #Mớipháthành ul li #film1 #contentfilm1 h2{
+	border-color: black;
+}
+
+#main #Mớipháthành ul li #film1 #contentfilm1 h2 a {
+	text-decoration: none;
+	color: black;
+}
+#main #Mớipháthành ul li #film1 #contentfilm1 #button{
+	width: 70px;
+	height: 35px;
+	background-color: white;
+	color: red;
+	font-weight: bold;
+	border-color: red;
+	border-radius: 5px;
+}
+
+#main #Mớipháthành ul li #film1 #contentfilm1 #button0{
+	width: 100px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+/*main_New_film2**********************************************************/
+
+#main #Mớipháthành ul li #film2 {
+	border-style: solid;
+	margin: 10px 10px 10px -20px;
+	width: 755px;
+	height: 190px;
+	border-width: 0px 0px 1px 0px;
+	border-color: gray;
+
+}
+
+#main #Mớipháthành ul li #film2 #imgfilm2 {
+	background-image: url("../images/film1.jpg");
+	background-size: 100%;
+	height: 180px;
+	width: 250px;
+	margin: 0px 0px 0px 0px;
+	border-radius: 10px;
+	float: left;
+}
+
+#main #Mớipháthành ul li #film2 #contentfilm2 {
+	height: 150px;
+	width: 480px;
+	margin: 0px 0px 0px 270px;
+}
+#main #Mớipháthành ul li #film2 #contentfilm2 h2{
+	border-color: black;
+}
+
+#main #Mớipháthành ul li #film2 #contentfilm2 h2 a {
+	text-decoration: none;
+	color: black;
+}
+#main #Mớipháthành ul li #film2 #contentfilm2 #button{
+	width: 70px;
+	height: 35px;
+	background-color: white;
+	color: red;
+	font-weight: bold;
+	border-color: red;
+	border-radius: 5px;
+}
+
+#main #Mớipháthành ul li #film2 #contentfilm2 #button0{
+	width: 100px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+/*main_New_film3**********************************************************/
+#main #Mớipháthành ul li #film3 {
+	border-style: solid;
+	margin: 10px 10px 10px -20px;
+	width: 755px;
+	height: 190px;
+	border-width: 0px 0px 1px 0px;
+	border-color: gray;
+
+}
+
+#main #Mớipháthành ul li #film3 #imgfilm3 {
+	background-image: url("../images/film2.jpg");
+	background-size: 100%;
+	height: 180px;
+	width: 250px;
+	margin: 0px 0px 0px 0px;
+	border-radius: 10px;
+	float: left;
+}
+
+#main #Mớipháthành ul li #film3 #contentfilm3 {
+	height: 150px;
+	width: 480px;
+	margin: 0px 0px 0px 270px;
+}
+#main #Mớipháthành ul li #film3 #contentfilm3 h2{
+	border-color: black;
+}
+
+#main #Mớipháthành ul li #film3 #contentfilm3 h2 a {
+	text-decoration: none;
+	color: black;
+}
+#main #Mớipháthành ul li #film3 #contentfilm3 #button{
+	width: 70px;
+	height: 35px;
+	background-color: white;
+	color: red;
+	font-weight: bold;
+	border-color: red;
+	border-radius: 5px;
+}
+
+#main #Mớipháthành ul li #film3 #contentfilm3 #button0{
+	width: 100px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+/*main_New_film4**********************************************************/
+#main #Mớipháthành ul li #film4 {
+	border-style: solid;
+	margin: 10px 10px 10px -20px;
+	width: 755px;
+	height: 190px;
+	border-width: 0px 0px 1px 0px;
+	border-color: gray;
+
+}
+
+#main #Mớipháthành ul li #film4 #imgfilm4 {
+	background-image: url("../images/film3.jpg");
+	background-size: 100%;
+	height: 180px;
+	width: 250px;
+	margin: 0px 0px 0px 0px;
+	border-radius: 10px;
+	float: left;
+}
+
+#main #Mớipháthành ul li #film4 #contentfilm4 {
+	height: 150px;
+	width: 480px;
+	margin: 0px 0px 0px 270px;
+}
+#main #Mớipháthành ul li #film4 #contentfilm4 h2{
+	border-color: black;
+}
+
+#main #Mớipháthành ul li #film4 #contentfilm4 h2 a {
+	text-decoration: none;
+	color: black;
+}
+#main #Mớipháthành ul li #film4 #contentfilm4 #button{
+	width: 70px;
+	height: 35px;
+	background-color: white;
+	color: red;
+	font-weight: bold;
+	border-color: red;
+	border-radius: 5px;
+}
+
+#main #Mớipháthành ul li #film4 #contentfilm4 #button0{
+	width: 100px;
+	height: 35px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	border-color: green;
+	border-radius: 5px;
+}
+/*main_film_buttonload***********************************************/
+#main #Mớipháthành #buttonload {
+	width: 755px;
+	height: 30px;
+	margin: 0px 0px 0px 20px;
+	color: white;
+	background-color: red;
+	opacity: 70%;
+	border-radius: 5px;
+}
+/*main_OngoingProject***********************************************/
+#main #OngoingProject {
+	width: 353px;
+	height: 600px;
+	background: white;
+	margin: 20px 0px 0px 17px;
+	float: left;
+	border-radius: 10px;
+	overflow: auto;
+}
+
+#main #OngoingProject h1{
+	font-size: 20px;
+	color: maroon;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	margin: 20px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+#main #OngoingProject ul li {
+	list-style: none;
+}
+/*main_OngoingProject_film1***********************************************/
+
+#main #OngoingProject ul li #film1 {
+	border-style: solid;
+	margin: 10px 10px 10px -20px;
+	width: 312px;
+	height: 230px;
+	border-width: 0px 0px 1px 0px;
+	border-color: gray;
+}
+
+#main #OngoingProject ul li #film1 #imgfilm1{
+	background-image: url("../images/film1on.jpg");
+	background-size: 100%;
+	width: 107px;
+	height: 150px;
+	border-radius: 5px;
+	float: left;
+}
+
+#main #OngoingProject ul li #film1 #contentfilm1 {
+	width: 200px;
+	margin: 0px 0px 0px 120px;
+}
+
+#main #OngoingProject ul li #film1 #contentfilm1 h3{
+	border-color: black;
+}
+
+#main #OngoingProject ul li #film1 #contentfilm1 h3 a {
+	text-decoration: none;
+	color: black;
+}
+/*main_OngoingProject_film2***********************************************/
+#main #OngoingProject ul li #film2 {
+	border-style: solid;
+	margin: 20px 10px 10px -20px;
+	width: 312px;
+	height: 230px;
+	border-width: 0px 0px 1px 0px;
+	border-color: gray;
+}
+
+#main #OngoingProject ul li #film2 #imgfilm2{
+	background-image: url("../images/film2on.jpg");
+	background-size: 100%;
+	width: 107px;
+	height: 150px;
+	border-radius: 5px;
+	float: left;
+}
+
+#main #OngoingProject ul li #film2 #contentfilm2 {
+	width: 200px;
+	margin: 0px 0px 0px 120px;
+}
+
+#main #OngoingProject ul li #film2 #contentfilm2 h3{
+	border-color: black;
+}
+
+#main #OngoingProject ul li #film2 #contentfilm2 h3 a {
+	text-decoration: none;
+	color: black;
+}
+/*main_OngoingProject_film3***********************************************/
+
+#main #OngoingProject ul li #film3 {
+	border-style: solid;
+	margin: 10px 10px 10px -20px;
+	width: 312px;
+	height: 230px;
+	border-width: 0px 0px 1px 0px;
+	border-color: gray;
+}
+
+#main #OngoingProject ul li #film3 #imgfilm3{
+	background-image: url("../images/film3on.jpg");
+	background-size: 100%;
+	width: 107px;
+	height: 150px;
+	border-radius: 5px;
+	float: left;
+}
+
+#main #OngoingProject ul li #film3 #contentfilm3 {
+	width: 200px;
+	margin: 0px 0px 0px 120px;
+}
+
+#main #OngoingProject ul li #film3 #contentfilm3 h3{
+	border-color: black;
+}
+
+#main #OngoingProject ul li #film3 #contentfilm3 h3 a {
+	text-decoration: none;
+	color: black;
+}
+
+#main #Commentgầnđây {
+	width: 353px;
+	height: 320px;
+	background: white;
+	margin: 20px 0px 0px 17px;
+	float: left;
+	border-radius: 10px;
+}
+#main #Commentgầnđây h1{
+	font-size: 20px;
+	color: maroon;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	margin: 20px;
+}
+
+
+
+#footer {
+	width: 1170px;
+	text-align: center;
+	height: 60px;
+	color: #FFF;
+	clear: left;
+	margin: 0px auto;
+	line-height: 60px;
+}
+
+#menu_top ul {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+
+}
+#menu_top ul li {
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	margin: 0px -250px 0px 250px;
+
+}
+
+#menu_top ul li a {
+	text-decoration: none;
+	color: white;
+	line-height: 66px;
+	padding: 0px 10px 0px 10px;
+	font-size: 13px;
+}
+
+#menu_top ul li a.active {
+	background: none;
+	color: red;
+}
+
+h1 {
+	font-size: 30px;
+	color: maroon;
+	margin: 20px;
+}
+h2 {
+	font-size: 20px;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	margin: 0px auto;
+}
+h3 {
+	font-size: 15px;
+	margin: -10px auto;
+
+
+}
+h4 {
+	font-size: 13px;
+	margin: 10px auto;
+}
+#main #Thôngbáo #imageThôngbáo {
+	background-image: url("../images/thongbao.png");
+	background-size: 250px;
+	height: 150px;
+	width: 250px;
+	margin: 0px 20px 20px 20px;
+
+	border-radius: 10px;
+	text-align: center;
+	float: left;
+}
+#main #Thôngbáo #contentthongbao {
+	height: 150px;
+	width: 490px;
+	margin: 0px 0px 0px 290px;
+
+}
+i {
+	font-size: 13px;
+	margin: 0px 10px 0px 0px;
+
+}
+i a{
+	text-decoration: none;
+	color: red;
+}
+p {
+	font-size: 16px;
+}
+#menu_top ul li a:hover {
+	color: red;
+}
